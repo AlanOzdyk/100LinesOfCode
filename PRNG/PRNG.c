@@ -25,9 +25,9 @@ uint32_t myRandRange(uint32_t max) {
 int main() {
     mysRand(1);
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) 
         printf("%u\n", myRandRange(10000));
-    }
+    
 
     return 0;
 }
